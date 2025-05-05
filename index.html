@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diana Velasquez | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diana Velasquez | Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: linear-gradient(to bottom right, #fef3c7, #e0f2fe);
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #1e40af;
+    }
+
+    a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #ffffffcc;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
 </head>
-
 <body>
-  <header>
-    <h1>Diana Velasquez</h1>
-    <p>Software Developer | Data Professional | Parent Advocate</p>
-  </header>
+  <div class="section">
+    <h1>👋 Hi, I'm Diana Velasquez</h1>
+    <p>I'm a software developer and data professional passionate about building meaningful tools and improving user experiences—especially for parents, educators, and underserved communities.</p>
 
-  <section id="about">
-    <h2>About Me</h2>
+    <h2>🧰 Featured Project: Student Support Portal</h2>
     <p>
-      I'm a developer and data advocate passionate about building tools that support families and learners.
-      With a background in software development and experience managing data in legal and healthcare settings,
-      I bring both technical and mission-driven perspectives to every project I work on.
+      A responsive web application that helps parents and educators discover engaging, age-appropriate, and autism-friendly educational resources.
     </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>🧰 Student Support Portal</h3>
-      <img src="images/student-portal-screenshot.png" alt="Student Support Portal Screenshot">
-      <p>
-        A beautifully styled, responsive web app helping parents and educators discover autism-friendly educational
-        resources. Built with Django REST and JavaScript, featuring filters, favorites, and animations.
-      </p>
-      <a href="https://student-support-portal.netlify.app/" target="_blank">🌐 View Live</a>
-      <a href="https://github.com/dvelasquez124/student-support-backend" target="_blank">🔗 Backend Code</a>
-      <a href="https://github.com/dvelasquez124/student-support-frontend" target="_blank">🔗 Frontend Code</a>
-    </div>
-    <!-- duplicate .project div for future projects -->
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
     <ul>
-      <li>Python, Django, REST APIs</li>
-      <li>JavaScript, HTML/CSS, Tailwind</li>
-      <li>PostgreSQL, Power Query, Excel Automation</li>
-      <li>Git, GitHub, Netlify, Render</li>
+      <li><a href="https://student-support-portal.netlify.app/" target="_blank">🌐 Live App</a></li>
+      <li><a href="https://github.com/dvelasquez124/student-support-frontend" target="_blank">💻 Frontend Code</a></li>
+      <li><a href="https://github.com/dvelasquez124/student-support-backend" target="_blank">🔧 Backend Code</a></li>
     </ul>
-  </section>
+    <p><em>Note: The backend may take 20–30 seconds to load on first visit due to Render’s free tier going to sleep.</em></p>
 
-  <section id="contact">
-    <h2>Get in Touch</h2>
-    <p>Email: <a href="mailto:dvelasquez124@gmail.com">dvelasquez124@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/dvelasquez124" target="_blank">@dvelasquez124</a></p>
-  </section>
+    <h2>📫 Contact</h2>
+    <p>
+      Connect with me on <a href="https://github.com/dvelasquez124" target="_blank">GitHub</a> or reach out via email: dvelasquez124 [at] gmail.com
+    </p>
+  </div>
 
   <footer>
-    <p>© 2025 Diana Velasquez</p>
+    © 2025 Diana Velasquez. Built with 💛 and vanilla HTML/CSS.
   </footer>
 </body>
-
 </html>
+
