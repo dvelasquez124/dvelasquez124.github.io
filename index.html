@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Diana Velasquez | Developer Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diana Velasquez | Portfolio</title>
   <style>
     body {
-      font-family: 'Nunito', sans-serif;
+      font-family: system-ui, sans-serif;
       margin: 0;
       padding: 2rem;
-      background: linear-gradient(to bottom right, #fef3c7, #e0f2fe);
+      background: #f9f9f9;
       color: #333;
     }
 
-    h1, h2 {
-      color: #1e40af;
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
     }
 
     a {
-      color: #1d4ed8;
+      color: #0366d6;
       text-decoration: none;
     }
 
@@ -27,44 +36,47 @@
       text-decoration: underline;
     }
 
-    .section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1.5rem;
-      background-color: #ffffffcc;
-      border-radius: 0.75rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    .project {
+      margin-bottom: 1.5rem;
     }
 
-    footer {
-      text-align: center;
-      margin-top: 3rem;
+    .note {
       font-size: 0.9rem;
-      color: #6b7280;
+      color: #666;
+      margin-top: 0.25rem;
     }
   </style>
 </head>
 <body>
-  <div class="section">
-    <h1>👋 Hi, I'm Diana Velasquez</h1>
-    <p>I'm a software developer and data professional passionate about building meaningful tools and improving user experiences—especially for parents, educators, and underserved communities.</p>
+  <header>
+    <h1>Diana Velasquez</h1>
+    <p>Software Developer | Data Advocate | Parent</p>
+  </header>
 
-   <p><strong>🧰 Student Support Portal:</strong>
-     A full-stack web app for discovering educational resources.
-     <a href="https://student-support-portal.netlify.app/" target="_blank">Live Site</a> |
-     <a href="https://github.com/dvelasquez124/the-student-support-portal" target="_blank">GitHub</a>
-   </p>
-    <p><em>Note: The backend may take 20–30 seconds to load on first visit due to Render’s free tier going to sleep.</em></p>
+  <section>
+    <h2>Featured Project</h2>
+    <div class="project">
+      <p><strong>🧰 Student Support Portal:</strong> A full-stack web app that helps parents and educators discover engaging, autism-friendly educational resources.
+      <br />
+      <a href="https://student-support-portal.netlify.app/" target="_blank">Live Site</a> |
+      <a href="https://github.com/dvelasquez124/the-student-support-portal" target="_blank">GitHub</a>
+      </p>
+      <p class="note">Note: The backend is hosted on Render’s free tier, so it may take 30–60 seconds to load initially.</p>
+    </div>
+  </section>
 
-    <h2>📫 Contact</h2>
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a passionate software developer with a background in data reporting and nonprofit tech. I specialize in building tools that solve real-world problems—especially in education, legal services, and public health.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
     <p>
-      Connect with me on <a href="https://github.com/dvelasquez124" target="_blank">GitHub</a> or reach out via email: dvelasquez124 [at] gmail.com
+      📫 <a href="mailto:dvelasquez124@gmail.com">dvelasquez124@gmail.com</a><br />
+      💻 <a href="https://github.com/dvelasquez124" target="_blank">GitHub</a>
     </p>
-  </div>
-
-  <footer>
-    © 2025 Diana Velasquez. Built with 💛 and vanilla HTML/CSS.
-  </footer>
+  </section>
 </body>
 </html>
 
