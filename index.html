@@ -1,133 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diana Velasquez | Portfolio</title>
-    <style>
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diana Velasquez | Full-Stack Developer & Data Analyst</title>
 
-        body {
-            font-family: 'Nunito', sans-serif;
-            margin: 0;
-            padding: 2rem;
-            background: linear-gradient(to bottom right, #fef3c7, #e0f2fe);
-            color: #333;
-        }
+  <!-- Meta Description -->
+  <meta name="description" content="Diana Velasquez | Full-Stack Developer and Data Analyst. Skilled in Vue.js, Node.js/Express, Django, SQL, Excel, Power Query—building mission-driven tools that make data accessible and actionable." />
 
-        h1,
-        h2 {
-            color: #2c3e50;
-        }
+  <!-- Open Graph (image can be added later) -->
+  <meta property="og:title" content="Diana Velasquez | Full-Stack Developer & Data Analyst" />
+  <meta property="og:description" content="Portfolio of Diana Velasquez — projects include Student Support Portal, Shopping Cart App, and WanderMom Travel Blog." />
+  <meta property="og:url" content="https://dvelasquez124.github.io" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-
-        h2 {
-            font-size: 1.75rem;
-            margin-top: 2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        .section {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1.5rem;
-            background-color: #ffffffcc;
-            border-radius: 0.75rem;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 3rem;
-            font-size: 0.9rem;
-            color: #6b7280;
-        }
-    </style>
+  <style>
+    :root {
+      --card-bg: #ffffffcc;
+      --text: #333;
+      --heading: #2c3e50;
+      --link: #1a73e8;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+      margin: 0; padding: 2rem;
+      background: linear-gradient(to bottom right, #fef3c7, #e0f2fe);
+      color: var(--text);
+    }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1, h2 { color: var(--heading); }
+    h1 { font-size: 2.5rem; margin: 0 0 0.5rem; }
+    .tagline {
+      font-weight: 500; font-size: 1.1rem; color: #555;
+      margin: 0 0 1.25rem;
+    }
+    p { line-height: 1.6; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 1.25rem; }
+    .section {
+      margin: 2rem 0; padding: 1.5rem; background: var(--card-bg);
+      border-radius: 0.75rem; box-shadow: var(--shadow);
+    }
+    .project {
+      border: 1px solid #e5e7eb; border-radius: 12px; background: #fff;
+      padding: 1rem; margin: 1rem 0;
+    }
+    .project h3 { margin: .25rem 0 .25rem; }
+    .project ul { margin: .5rem 0 0 1.2rem; }
+    details { margin-top: .5rem; }
+    hr { border: none; height: 1px; background: #e5e7eb; margin: 2rem 0; }
+    footer { text-align: center; margin-top: 3rem; font-size: 0.9rem; color: #6b7280; }
+  </style>
 </head>
-<div class="container">
+<body>
+  <div class="container">
+    <header aria-label="Intro">
+      <h1>Hi, I'm Diana 👋</h1>
+      <p class="tagline">Full-Stack Developer • Data Analyst</p>
+      <p>
+        I'm a full-stack software developer and data professional who loves building accessible, user-friendly tools that solve real problems for families, communities, and mission-driven organizations.  
+        My background spans <strong>web development</strong> (Vue.js, Node.js/Express, Django) and <strong>data analysis</strong> (SQL, PostgreSQL, Excel + Power Query), allowing me to bridge technical solutions with clear, actionable insights.  
+        I’m especially passionate about creating applications and dashboards that make complex data easy to understand and use.
+      </p>
+    </header>
 
-    <body>
-        <h1>Hi, I'm Diana 👋</h1>
-        <p>I'm a software developer and data professional passionate about building accessible tools that support
-            families
-            and communities. I combine technical knowledge with a deep understanding of real-world needs, especially in
-            the
-            legal and healthcare space.</p>
+    <section class="section" aria-label="WanderMom Travel Blog">
+      <h2>🌍 WanderMom Travel Blog</h2>
+      <p><strong>Live Site:</strong> <a href="https://playpackrepeat.netlify.app" target="_blank" rel="noopener">https://playpackrepeat.netlify.app</a></p>
+      <p><strong>GitHub Repo:</strong> <a href="https://github.com/dvelasquez124/wandermom_blog" target="_blank" rel="noopener">wandermom_blog</a></p>
+      <p>This colorful, family-centered travel blog showcases responsive design, component reuse, and personal branding. Features include:</p>
+      <ul>
+        <li>✅ Fully responsive layout with custom mobile styles</li>
+        <li>🎨 Dynamic blog content and toggles using Vue.js</li>
+        <li>🎥 Multimedia integration with video and audio</li>
+        <li>📋 Expandable content and styled tables</li>
+        <li>📝 Accessible and styled contact form with JavaScript validation</li>
+      </ul>
+      <p>This project highlights front-end development with HTML, CSS, and JavaScript (Vue), along with Git/GitHub deployment and Netlify hosting.</p>
+    </section>
 
-        <section>
-          <h2>🌍 WanderMom Travel Blog</h2>
-          <p><strong>Live Site:</strong> <a href="https://playpackrepeat.netlify.app" target="_blank">https://playpackrepeat.netlify.app</a></p>
-          <p><strong>GitHub Repo:</strong> <a href="https://github.com/dvelasquez124/wandermom_blog" target="_blank">wandermom_blog</a></p>
-          <p>This colorful, family-centered travel blog showcases responsive design, component reuse, and personal branding. Features include:</p>
-          <ul>
-            <li>✅ Fully responsive layout with custom mobile styles</li>
-            <li>🎨 Dynamic blog content and toggles using Vue.js</li>
-            <li>🎥 Multimedia integration with video and audio</li>
-            <li>📋 Expandable content and styled tables</li>
-            <li>📝 Accessible and styled contact form with JavaScript validation</li>
-          </ul>
-          <p>This project highlights front-end development with HTML, CSS, and JavaScript (Vue), along with Git/GitHub deployment and Netlify hosting.</p>
-        </section>
-        
-        <hr/>
-        
-        <section>
-          <h2>📚 Featured Project: Student Support Portal</h2>
-          <h3><a href="https://student-support-portal.netlify.app/" target="_blank">Student Support Portal</a></h3>
-          <p>A beautifully styled, responsive web app that helps parents and educators discover engaging, age-appropriate, and autism-friendly educational resources.</p>
-          <ul>
-            <li>🔗 <strong>Live App:</strong> <a href="https://student-support-portal.netlify.app/" target="_blank">student-support-portal.netlify.app</a></li>
-            <li>🌐 <strong>Umbrella GitHub Repo:</strong> <a href="https://github.com/dvelasquez124/the-student-support-portal" target="_blank">the-student-support-portal</a></li>
-            <li>💻 <strong>Frontend:</strong> <a href="https://github.com/dvelasquez124/student-support-frontend" target="_blank">student-support-frontend</a></li>
-            <li>🛠️ <strong>Backend:</strong> <a href="https://github.com/dvelasquez124/student-support-backend" target="_blank">student-support-backend</a></li>
-          </ul>
-          <p><em>Note: The app may take a few seconds to load because the backend is hosted on Render's free tier, which goes to sleep when idle.</em></p>
-        </section>
+    <hr />
 
-        <section>
-          <h2>🛠 Tech Stack</h2>
-          <ul>
-            <li><strong>Frontend:</strong> HTML, TailwindCSS, Vanilla JavaScript, Vue.js</li>
-            <li><strong>Backend:</strong> Django, Django REST Framework</li>
-            <li><strong>Styling & UI:</strong> Custom CSS, responsive media queries, animations</li>
-            <li><strong>Deployment:</strong> Netlify (frontend), Render (backend)</li>
-            <li><strong>Version Control:</strong> Git, GitHub</li>
-          </ul>
-        </section>
+    <section class="section" aria-label="Student Support Portal">
+      <h2>📚 Featured Project: Student Support Portal</h2>
+      <h3><a href="https://student-support-portal.netlify.app/" target="_blank" rel="noopener">Student Support Portal</a></h3>
+      <p>A responsive web app that helps parents and educators discover engaging, age-appropriate, and autism-friendly educational resources.</p>
+      <ul>
+        <li>🔗 <strong>Live App:</strong> <a href="https://student-support-portal.netlify.app/" target="_blank" rel="noopener">student-support-portal.netlify.app</a></li>
+        <li>🌐 <strong>Umbrella GitHub Repo:</strong> <a href="https://github.com/dvelasquez124/the-student-support-portal" target="_blank" rel="noopener">the-student-support-portal</a></li>
+        <li>💻 <strong>Frontend:</strong> <a href="https://github.com/dvelasquez124/student-support-frontend" target="_blank" rel="noopener">student-support-frontend</a></li>
+        <li>🛠️ <strong>Backend:</strong> <a href="https://github.com/dvelasquez124/student-support-backend" target="_blank" rel="noopener">student-support-backend</a></li>
+      </ul>
+      <p><em>Note: The app may take a few seconds to load because the backend is hosted on Render's free tier, which goes to sleep when idle.</em></p>
+    </section>
 
-        <section>
-            <h2>📬 Contact</h2>
-            <p>
-                <a href="mailto:dvelasquez124@gmail.com">dvelasquez124@gmail.com</a><br />
-                <a href="https://github.com/dvelasquez124" target="_blank">GitHub</a>
-            </p>
-        </section>
-        <footer>
-            © 2025 Diana Velasquez. Built with 💛 and vanilla HTML/CSS.
-        </footer>
-    </body>
-</div>
+    <section class="section" aria-label="Shopping Cart App">
+      <h2>🛒 Final Project: Shopping Cart App</h2>
+      <article class="project">
+        <h3>Shopping Cart App (Local Run)</h3>
+        <p>
+          Full-stack Node.js (v20) + Express v5 app with MongoDB/Mongoose and Passport.js session auth.
+          Includes REST endpoints, a GraphQL API (Yoga at <code>/graphql</code>), role-based access (admin/user), session cart, and checkout flow.
+        </p>
+        <ul>
+          <li><strong>Stack:</strong> Node.js, Express v5, MongoDB/Mongoose, Passport.js, Handlebars, GraphQL Yoga</li>
+          <li><strong>Status:</strong> Local run (repo includes setup + seed)</li>
+        </ul>
+        <p>
+          <a href="https://github.com/dvelasquez124/shopping-cart-app" target="_blank" rel="noopener">GitHub Repo</a>
+        </p>
+        <details>
+          <summary>How to run locally</summary>
+          <pre><code>git clone https://github.com/dvelasquez124/shopping-cart-app
+cd shopping-cart-app
+npm install
+cp .env.example .env   # set MONGODB_URI, SESSION_SECRET
+npm run seed           # optional: adds admin + sample products
+npm run dev            # or npm start
+# UI:        http://localhost:3000
+# GraphQL:   http://localhost:3000/graphql
+</code></pre>
+        </details>
+      </article>
+    </section>
 
+    <section class="section" aria-label="Tech Stack">
+      <h2>🛠 Tech Stack</h2>
+      <ul>
+        <li><strong>Frontend:</strong> HTML, TailwindCSS, Vanilla JavaScript, Vue.js</li>
+        <li><strong>Backend:</strong> Django, Django REST Framework, Node.js, Express</li>
+        <li><strong>Databases:</strong> PostgreSQL, MongoDB/Mongoose</li>
+        <li><strong>APIs:</strong> REST, GraphQL (Yoga)</li>
+        <li><strong>Data Tools:</strong> Excel (advanced formulas, pivot tables, Power Query), Data Visualization</li>
+        <li><strong>Styling & UI:</strong> Custom CSS, responsive media queries, animations</li>
+        <li><strong>Deployment:</strong> Netlify (frontend), Render (backend)</li>
+        <li><strong>Version Control & Tools:</strong> Git, GitHub, Microsoft 365, Google Workspace</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-label="Contact">
+      <h2>📬 Contact</h2>
+      <p>
+        <a href="mailto:dvelasquez124@gmail.com">dvelasquez124@gmail.com</a><br />
+        <a href="https://github.com/dvelasquez124" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Diana Velasquez. Built with 💛 and vanilla HTML/CSS.
+      <br />
+      <small>Last updated: <span id="lastUpdated"></span></small>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("lastUpdated").textContent = new Date().toLocaleDateString();
+  </script>
+</body>
 </html>
+
